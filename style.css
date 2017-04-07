@@ -4,7 +4,7 @@ html{
 }
 
 body{
-	background-image:url(./backup/doggo.jpg);
+	background-image:url(./doggo.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	height:100%;
