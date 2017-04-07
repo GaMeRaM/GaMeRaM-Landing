@@ -1,0 +1,65 @@
+html{
+	height: 100%;
+	box-sizing: border-box;
+}
+
+body{
+	background-image:url(./backup/doggo.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100%;
+	position: relative;
+	margin: 0;
+	min-height: 100%;
+}
+
+*,
+*:before,
+*:after {
+	font-family: 'Anonymous Pro', monospace;
+	box-sizing: inherit;
+}
+
+a:link {
+	color: #FFF; /* Цвет ссылок */
+}
+a:visited {
+	color: #FFF; /* Цвет посещенных ссылок */
+}
+img {
+	height: 100%; 
+	width: 100%; 
+	object-fit: contain;
+	box-shadow: 0px 0px 20px #000000;
+}
+
+content{
+	margin: 36px 0px;
+	display: flex;
+	float: left;
+	width: 100%;
+}
+
+.side{
+	margin: 0px 4rem;
+	width: 25%;
+	float: left;
+	
+}
+
+.middle{
+	color: white;
+	padding: 1rem;
+	background: #000;
+	width: 50%;
+	float: left;
+	box-shadow: 0px 0px 20px #000000;
+}
+
+.vert{
+	position: relative;
+	float: left;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
